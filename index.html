@@ -35,18 +35,149 @@
     "description": "Licensed plumbers in Guelph. Drain cleaning, water heaters, leaks, bathroom & kitchen plumbing. Free quotes."
   }
   </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer emergency plumbing services in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide 24/7 emergency plumbing services in Guelph. Whether it's a burst pipe, severe leak, or backed-up drain, our licensed plumbers respond quickly to minimize damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What plumbing services do you offer in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We handle drain cleaning, water heater installation and repair, pipe repair and replacement, leak detection, toilet and faucet installation, sump pump service, and full bathroom and kitchen plumbing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if I have a hidden water leak?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Signs of hidden leaks include unexpectedly high water bills, the sound of running water when nothing is on, damp spots on walls or ceilings, and mould or mildew odours. Call us for a leak detection inspection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your plumbers licensed in Ontario?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all our plumbers are fully licensed and insured in Ontario. We comply with Ontario Building Code requirements and pull permits where required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to unclog a drain in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drain cleaning costs vary depending on the severity and location of the blockage. We offer upfront pricing after a free assessment — no surprise charges."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://guelphplumbers.ca/#website",
+  "url": "https://guelphplumbers.ca/",
+  "name": "Guelph Plumbers",
+  "description": "Licensed plumbers in Guelph, Ontario. Drain cleaning, water heater installation, pipe repair, leak detection, and emergency plumbing.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "@id": "https://guelphplumbers.ca/#search",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://guelphplumbers.ca/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://guelphplumbers.ca/#webpage",
+  "url": "https://guelphplumbers.ca/",
+  "name": "Guelph Plumbers",
+  "isPartOf": {"@id": "https://guelphplumbers.ca/#website"},
+  "about": {"@id": "https://guelphplumbers.ca/#business"},
+  "description": "Licensed plumbers in Guelph, Ontario. Drain cleaning, water heater installation, pipe repair, leak detection, and emergency plumbing.",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".hero h2", ".services h2", "p.lead"]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://guelphplumbers.ca/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "@id": "https://guelphplumbers.ca/#business",
+  "name": "Guelph Plumbers",
+  "description": "Licensed plumbers in Guelph, Ontario. Drain cleaning, water heater installation, pipe repair, leak detection, and emergency plumbing.",
+  "url": "https://guelphplumbers.ca/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Guelph",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "43.5448",
+    "longitude": "-80.2482"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Guelph"
+  },
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "43.5448",
+      "longitude": "-80.2482"
+    },
+    "geoRadius": "30000"
+  }
+}
+</script>
 </head>
 <body>
 
 <header>
   <nav>
-    <div class="nav-brand"><a href="/">Guelph Plumber</a></div>
+    <div class="nav-brand"><a href='/'>Guelph Plumber</a></div>
     <ul class="nav-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/#services">Services</a></li>
-      <li><a href="/blog.html">Blog</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      <li><a href="/contact.html" class="btn-nav">Free Quote</a></li>
+      <li><a href='/'>Home</a></li>
+      <li><a href='/#services'>Services</a></li>
+      <li><a href='https://guelphplumbers.ca/blog'>Blog</a></li>
+      <li><a href='https://guelphplumbers.ca/contact'>Contact</a></li>
+      <li><a class='btn-nav' href='https://guelphplumbers.ca/contact'>Free Quote</a></li>
     </ul>
     <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
   </nav>
@@ -57,7 +188,7 @@
     <h1>Licensed Plumbers in Guelph</h1>
     <p class="hero-sub">Licensed Guelph plumbers for drain cleaning, water heaters, leaks, and full plumbing installs. Free quotes.</p>
     <div class="hero-cta">
-      <a href="/contact.html" class="btn-primary">Get a Free Quote</a>
+      <a class='btn-primary' href='https://guelphplumbers.ca/contact'>Get a Free Quote</a>
       <a href="tel:226-790-2970" class="btn-secondary">Call 226-790-2970</a>
     </div>
   </div>
@@ -232,7 +363,7 @@
   <div class="container">
     <h2>Get a Free Quote</h2>
     <p>Contact us today for a free, no-obligation quote for plumber services in Guelph.</p>
-    <form class="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field">
+    <form class='contact-form' method='POST' name='contact'>
       <input type="hidden" name="form-name" value="contact">
       <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
       <div class="form-row">
@@ -274,25 +405,25 @@
       <div>
         <h3>Services</h3>
         <ul>
-          <li><a href="/#services">Drain Cleaning</a></li>
-          <li><a href="/#services">Water Heater Service</a></li>
-          <li><a href="/#services">Leak Repair</a></li>
-          <li><a href="/#services">Bathroom Plumbing</a></li>
+          <li><a href='/#services'>Drain Cleaning</a></li>
+          <li><a href='/#services'>Water Heater Service</a></li>
+          <li><a href='/#services'>Leak Repair</a></li>
+          <li><a href='/#services'>Bathroom Plumbing</a></li>
         </ul>
       </div>
       <div>
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/#services">Services</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/#services'>Services</a></li>
+          <li><a href='https://guelphplumbers.ca/blog'>Blog</a></li>
+          <li><a href='https://guelphplumbers.ca/contact'>Contact</a></li>
+          <li><a href='https://guelphplumbers.ca/privacy'>Privacy Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Guelph Plumber. All rights reserved. | <a href="/privacy.html">Privacy Policy</a> | Built by <a href="https://overhauled.ai">Overhauled.ai</a> | Leads by <a href="https://weprovideleads.com" rel="noopener">WeProvideLeads</a></p>
+      <p>&copy; 2026 Guelph Plumber. All rights reserved. | <a href='https://guelphplumbers.ca/privacy'>Privacy Policy</a> | Built by <a href="https://overhauled.ai">Overhauled.ai</a> | Leads by <a href="https://weprovideleads.com" rel="noopener">WeProvideLeads</a></p>
     </div>
   </div>
 </footer>
