@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://guelphplumbers.ca/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://guelphplumbers.ca/contact.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://guelphplumbers.ca/blog.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://guelphplumbers.ca/privacy.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://guelphplumbers.ca/</loc></url>
+  <url><loc>https://guelphplumbers.ca/contact</loc></url>
+  <url><loc>https://guelphplumbers.ca/blog</loc></url>
+  <url><loc>https://guelphplumbers.ca/privacy</loc></url>
+  <url><loc>https://guelphplumbers.ca/no-hot-water-guelph</loc></url>
+  <url><loc>https://guelphplumbers.ca/plumber-cost-guelph</loc></url>
+  <url><loc>https://guelphplumbers.ca/water-heater-permit-guelph</loc></url>
 </urlset>
