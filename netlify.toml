@@ -19,3 +19,16 @@ from = "https://guelphplumbers-ca.netlify.app/*"
 to = "https://guelphplumbers.ca/:splat"
 status = 301
 force = true
+
+# Consolidate duplicate domains onto the canonical guelphplumbers.ca
+[[redirects]]
+from = "https://guelphplumbingco.com/*"
+to = "https://guelphplumbers.ca/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://jimlplumbing.ca/*"
+to = "https://guelphplumbers.ca/:splat"
+status = 301
+force = true
