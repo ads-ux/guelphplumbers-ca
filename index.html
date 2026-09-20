@@ -16,26 +16,7 @@
   <meta name="twitter:image" content="https://guelphplumbers.ca/images/cover.webp">
   <link rel="canonical" href="https://guelphplumbers.ca/">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/favicon.ico">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Guelph Plumber",
-    "url": "https://guelphplumbers.ca",
-    "telephone": "226-756-2116",
-    "email": "hello@guelphplumbers.ca",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Guelph",
-      "addressRegion": "Ontario",
-      "addressCountry": "CA"
-    },
-    "areaServed": ["Guelph","Fergus","Elora","Rockwood","Erin","Acton","Cambridge","Puslinch"],
-    "description": "Licensed plumbers in Guelph. Drain cleaning, water heaters, leaks, bathroom & kitchen plumbing. Free quotes."
-  }
-  </script>
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -132,8 +113,7 @@
   ]
 }
 </script>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Plumber",
   "@id": "https://guelphplumbers.ca/#business",
@@ -151,10 +131,16 @@
     "latitude": "43.5448",
     "longitude": "-80.2482"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "Guelph"
-  },
+  "areaServed": [
+    "Guelph",
+    "Fergus",
+    "Elora",
+    "Rockwood",
+    "Erin",
+    "Acton",
+    "Cambridge",
+    "Puslinch"
+  ],
   "serviceArea": {
     "@type": "GeoCircle",
     "geoMidpoint": {
@@ -163,9 +149,10 @@
       "longitude": "-80.2482"
     },
     "geoRadius": "30000"
-  }
-}
-</script>
+  },
+  "telephone": "226-756-2116",
+  "email": "hello@guelphplumbers.ca"
+}</script>
 <style id="mcbar">
 .sticky-call-bar{display:none}
 .mid-call-band{background:var(--primary-dark,#154360);color:#fff;text-align:center;padding:30px 20px}
@@ -188,13 +175,11 @@ fbq('track', 'PageView', {content_category: 'plumbing'});
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2194207214734752&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel Code -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWRQZ2XFKJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZWRQZ2XFKJ');
-</script><script src="https://analytics.ahrefs.com/analytics.js" data-key="sQTOvWyHBIUc/gVfaQIwsA" async></script></head>
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="sQTOvWyHBIUc/gVfaQIwsA" async></script>
+<link rel="icon" href="/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+</head>
 <body>
 
 <header>
@@ -391,7 +376,7 @@ src="https://www.facebook.com/tr?id=2194207214734752&ev=PageView&noscript=1"/></
   <div class="container">
     <h2>Get a Free Quote</h2>
     <p>Contact us today for a free, no-obligation quote for plumber services in Guelph.</p>
-    <form class='contact-form' method='POST' name='contact' enctype="multipart/form-data" data-netlify="true">
+    <form class='contact-form' method='POST' name='contact' enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact">
       <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
       <div class="form-row">
