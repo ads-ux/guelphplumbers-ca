@@ -81,7 +81,7 @@
     </div>
     <div class="contact-form-wrap">
       <h2>Request a Free Quote</h2>
-      <form class='contact-form' method='POST' name='contact' enctype="multipart/form-data" data-netlify="true">
+      <form class='contact-form' method='POST' name='contact' enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
         <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
         <div class="form-row">
@@ -90,6 +90,8 @@
           <label>Email <input type="email" name="email" required placeholder="you@example.com"></label>
         </div>
         <label>What do you need?
+          <label for="address">Property Address *</label>
+          <input type="text" id="address" name="address" required placeholder="Street address and city">
           <textarea name="message" rows="6" placeholder="Describe your project or issue..."></textarea>
         </label>
         <label>Photos or Video (optional)</label><input type="file" name="photos" accept="image/*,video/*" multiple><button type="submit" class="btn-primary">Send My Request</button>
