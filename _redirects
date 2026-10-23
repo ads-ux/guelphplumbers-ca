@@ -10,6 +10,12 @@
 /water-softener-installation-guelph.html   /water-softener-installation-guelph   301!
 /water-heater-repair-guelph.html   /water-heater-repair-guelph   301!
 /emergency-plumber-guelph.html   /emergency-plumber-guelph   301!
+# 2026-10-23 — service pages
+/commercial-plumbing-guelph.html   /commercial-plumbing-guelph   301!
+/drain-cleaning-guelph.html   /drain-cleaning-guelph   301!
+/leak-repair-guelph.html   /leak-repair-guelph   301!
+/boiler-repair-guelph.html   /boiler-repair-guelph   301!
+/water-heater-installation-guelph.html   /water-heater-installation-guelph   301!
 # from netlify.toml
 /services.html   /#services   301
 https://guelphplumbers-ca.netlify.app/*   https://guelphplumbers.ca/:splat   301!
