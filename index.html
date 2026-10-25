@@ -107,7 +107,10 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Plumber",
+  "@type": [
+    "Plumber",
+    "Organization"
+  ],
   "@id": "https://guelphplumbers.ca/#business",
   "name": "Guelph Plumbers",
   "description": "Licensed plumbers in Guelph, Ontario. Drain cleaning, water heater installation, pipe repair, leak detection, and emergency plumbing.",
@@ -150,7 +153,15 @@
   },
   "telephone": "226-756-2116",
   "email": "hello@guelphplumbers.ca",
-  "image": "https://guelphplumbers.ca/images/cover.webp"
+  "image": "https://guelphplumbers.ca/images/cover.webp",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "226-756-2116",
+    "areaServed": "CA",
+    "availableLanguage": "English",
+    "email": "hello@guelphplumbers.ca"
+  }
 }
 </script>
 <style id="mcbar">
